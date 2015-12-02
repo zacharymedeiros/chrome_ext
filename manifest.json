@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Annotation Helper",
+  "description": "This extension helps to annotate and share YouTube content",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ic_polymer_black_48dp_2x.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ],
+
+  "background": {
+    "matches": ["http://www.google.com/*"],
+    "css": ["stylesheet.css"],
+    "js": ["background.js", "jquery-2.1.4.min.js"]
+  }
+}
