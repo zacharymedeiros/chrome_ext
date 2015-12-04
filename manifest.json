@@ -18,6 +18,6 @@
   "background": {
     "matches": ["http://www.google.com/*"],
     "css": ["stylesheet.css"],
-    "js": ["background.js", "jquery-2.1.4.min.js"]
+    "js": ["background.js", "ext_sendmessage.js", "jquery-2.1.4.min.js","messageGenerator.js"]
   }
 }
