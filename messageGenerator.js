@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		var comment2Value = document.getElementById("comment2").value;
 		var comment3Value = document.getElementById("comment3").value;
 
-		var messageArray = [time1Value, time2Value, time3Value, comment1Value, comment2Value, comment3Value];
+		var messageArray = [tabID, time1Value, time2Value, time3Value, comment1Value, comment2Value, comment3Value];
 		userMessage = JSON.stringify(messageArray);
 
 	});

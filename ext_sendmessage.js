@@ -1,4 +1,4 @@
-var destination = 'https://localhost:3000'
+var destination = 'http://localhost:3000'
 
 function sendMessage(command)
 {
@@ -9,7 +9,7 @@ console.log(window.destination);
         var http = new XMLHttpRequest();
     
         http.open(command, destination, true);
-        http.setRequestHeader("Content-type", "application/json");
+        http.setRequestHeader("Content-type", "application/json", "Access-Control-Allow-Origin: *");
 
         http.onreadystatechange = function()
         {

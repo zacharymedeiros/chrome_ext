@@ -12,7 +12,8 @@
 
   "permissions": [
     "tabs",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+    "http://*/"
   ],
 
   "background": {

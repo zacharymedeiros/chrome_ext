@@ -1,3 +1,5 @@
+var tabID;
+
 //Retrieve URL of current tab
 chrome.tabs.getSelected(null, function(tab) {
     document.getElementById('currentLink').innerHTML = tab.url;
@@ -5,7 +7,7 @@ chrome.tabs.getSelected(null, function(tab) {
 
 //Store url string inside a variable
 chrome.tabs.getSelected(null, function(tab) {
-    var tabID = tab.url;
+    tabID = tab.url;
 });
 
 
